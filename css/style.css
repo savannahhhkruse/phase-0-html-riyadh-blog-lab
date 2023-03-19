@@ -11,6 +11,7 @@ body {
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 100%;
+  background-image: linear-gradient(purple, pink, blue)
 }
 
 .wrapper {
@@ -21,7 +22,7 @@ body {
 
 #content {
   padding: 20px;
-  background: rgba(255,255,255,.85);
+  background: rgba(255, 192, 203);
 }
 
 h1, h2 {
@@ -35,7 +36,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.7em;
   margin-top: .5em;
 }
 
@@ -43,6 +44,7 @@ h3 {
   font-family: 'Gabriela', serif;
   font-size: 1.5em;
   margin-top: .5em;
+  color: rgb(128, 0, 128);
 }
 
 img {
@@ -52,16 +54,18 @@ img {
 }
 
 p {
-  font-size: 1em;
+  font-size: 1.4em;
+  color: rgb(75, 0, 130);
 }
 
 a {
-  color: black;
+  color: indigo;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
+  color: purple;
 }
 
 @media only screen and (max-width: 1042px) {
